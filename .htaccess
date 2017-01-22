@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^news-(.*)\.html$                                news\.php\?id=$1   [L]
